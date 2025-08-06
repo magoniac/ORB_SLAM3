@@ -13,6 +13,9 @@ set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -march=native")
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -march=native")
 
 set(CMAKE_CXX_STANDARD 14)
+add_definitions(-DISMODERNCPP)
+message(STATUS "Forcing C++14")
+
 
 LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 
