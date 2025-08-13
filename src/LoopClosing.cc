@@ -2158,7 +2158,7 @@ void LoopClosing::SearchAndFuse(const vector<KeyFrame*> &vConectedKFs, vector<Ma
 {
     ORBmatcher matcher(0.8);
 
-    int total_replaces = 0;
+    // int total_replaces = 0;
 
     //cout << "FUSE-POSE: Initially there are " << vpMapPoints.size() << " MPs" << endl;
     //cout << "FUSE-POSE: Intially there are " << vConectedKFs.size() << " KFs" << endl;
